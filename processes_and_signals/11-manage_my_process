@@ -1,4 +1,5 @@
-#!/usr/bin/bash env
+#!/usr/bin/env bash
+#comment
 #script that writes Indefinitely writes I am alive! to the file /tmp/my_process
 script=/var/run/my_process.pid
 if [ "$1" == "start" ];
